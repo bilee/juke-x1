@@ -30,7 +30,7 @@ screen is visible with lid closed
 no timeouts, no hibernate, always on, no lock screen
 remove monitor stand
 mount 45 deg
-LEDs
+leds
 --------------------
 Alpha machine specs:
 Dell D600 laptop 
@@ -39,7 +39,7 @@ Intel(R) Pentium(R) M processor 1.80GHz
 512 RAM
 80 GB HD
 
-OS- xubuntu
+OS- xubuntu 14.04
 Once all is configured, edit grub to start in text mode.
 (http://ubuntuhandbook.org/index.php/2014/01/boot-into-text-console-ubuntu-linux-14-04/)
 
