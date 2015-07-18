@@ -42,7 +42,11 @@ OS- xubuntu 14.04
 Once all is configured, edit grub to start in text mode.
 (http://ubuntuhandbook.org/index.php/2014/01/boot-into-text-console-ubuntu-linux-14-04/);
 To make Ubuntu do nothing when laptop lid is closed -->
-sudo -H nano /etc/systemd/logind.conf | add line, HandleLidSwitch=ignore | restart with sudo restart systemd-logind
+sudo -H nano /etc/systemd/logind.conf | add line, HandleLidSwitch=ignore | restart with sudo restart systemd-logind;
+Issue-
+Screen still goes blank over time in terminal, but music still audible; trying to keep the screen active; 
+Ran this:
+setterm -blank 0 -powersave off -powerdown 0
 
 
 
