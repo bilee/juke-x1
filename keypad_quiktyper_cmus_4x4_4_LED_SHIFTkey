@@ -1,0 +1,121 @@
+
+// Author: Nick Gammon
+// Date: 5th July 2012
+// Modified: 22 October 2012
+
+//modified by jw 7/21/15
+// file name: keypad_quiktyper_cmus_4x4_4_LED_SHIFTkey
+#include <Keypad.h>
+
+const byte ROWS = 4;
+const byte COLS = 4; 
+
+char keys[ROWS][COLS] = {
+ {'1', '2', '3', 'A'},
+ {'4', '5', '6', 'B'},
+ {'7', '8', '9', 'C'},
+ {'*', '0', '#', 'D'},
+};
+
+byte rowPins[ROWS] = {6, 7, 8, 9}; //connect to the row pinouts of the keypad
+byte colPins[COLS] = {2, 3, 4, 5}; //connect to the column pinouts of the keypad
+ 
+const byte ledPin = 13;
+boolean alternateMessages = false;
+
+ // Create the Keypad
+Keypad kpd = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS );
+
+void setup ()
+{
+ // initialize control over the keyboard:
+ Keyboard.begin();
+ pinMode (ledPin, OUTPUT);
+}  // end of setup
+
+void loop () 
+ {
+  
+  // show which messages are active
+  digitalWrite (ledPin, alternateMessages ? HIGH : LOW);
+  
+  byte key =  kpd.getKey();
+  
+  while(key == NO_KEY)
+    {
+      key = kpd.getKey();
+    }
+  if (!key)
+    return;
+    
+ if (alternateMessages)
+   {
+   switch (key)
+     {
+       // When SHIFT is enabled ...
+       
+      case '0': Keyboard.println ("~"); break;    // playlist view
+     case '*': Keyboard.println ("@"); break; // browser-activate ---SPACE function---    --> Enter
+     case '4': Keyboard.println ("!"); break; // add to playlist --> add to queue
+     case '1': Keyboard.println ('%'); break;    // previous track
+    // i = ; d-elete; u-pdate;
+
+       case '7': alternateMessages = false; break;  //SHIFT function
+     
+     } // end of switch
+       
+   // go back to main messages
+   alternateMessages = false; 
+   
+   } // end of if alternate messages
+   
+ else
+ 
+   // normal messages
+   {
+   switch (key)
+     {
+   case 'D': Keyboard.println ("1"); break;   // tree view 
+   case '#': Keyboard.println ("2"); break;    // list view
+   case '0': Keyboard.println ("4"); break;    // queue view
+   case '*': Keyboard.println ("*"); break;    // enter
+   
+   case 'C': Keyboard.println ("7"); break;   // vol up
+   case 'B': Keyboard.println ("3"); break;   // vol down
+   case '9': Keyboard.println ('5'); break;    //page up
+   case '6': Keyboard.println ('6'); break;    // page down
+   case '8': Keyboard.println ('8'); break;   // scroll up
+   case '5': Keyboard.println ('9'); break;    // scroll down
+   
+   case '7': alternateMessages = true; break;  //SHIFT   When 7 is pressed (old Shuffle), SHIFT function is enabled; LED should light
+   case '4': Keyboard.println ('#'); break;    // add to queue
+   
+   case 'A': Keyboard.println ("x"); break;   // play
+   case '3': Keyboard.println ('v'); break;   // stop
+   case '2': Keyboard.println ('c'); break;     // pause
+   case '1': Keyboard.println ('b'); break;    // next track
+   
+   
+   
+   
+   
+   
+   // case '7': Keyboard.println ('s'); break;    // shuffle
+     
+     
+      
+     } // end of switch
+     // Keyboard.press (KEY_LEFT_ALT);
+     // 300 sec = 5 min
+     // as delayTime = 300000
+     
+     
+     // desired result is... if no key is pressed after 20 min then do this
+     // or key press every 29 min
+    // delay(5000); // 29min
+    
+     
+ 
+   }  // end of normal messages
+   
+ } // end of loop
