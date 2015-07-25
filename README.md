@@ -47,6 +47,7 @@ Issue-
 Screen still goes blank over time in terminal, but music still audible; trying to keep the screen active; 
 Ran this:
 setterm -blank 0 -powersave off -powerdown 0
+//addtl ref at http://ubuntuforums.org/showthread.php?t=2172974
 
 
 
