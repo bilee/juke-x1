@@ -49,5 +49,10 @@ Ran this:
 setterm -blank 0 -powersave off -powerdown 0
 //addtl ref at http://ubuntuforums.org/showthread.php?t=2172974
 
+External monitor resolution was not recognized. Ran this to fix:
+http://superuser.com/questions/155004/switch-monitors-from-the-command-line
+xrandr --output VGA-0 --auto
+xrandr --output LVDS --off
+
 
 
