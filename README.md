@@ -53,6 +53,16 @@ External monitor resolution was not recognized. Ran this to fix:
 http://superuser.com/questions/155004/switch-monitors-from-the-command-line
 xrandr --output VGA-0 --auto
 xrandr --output LVDS --off
+-----
+Notes fromn user test
+-build metal pipe frame
+custom DIY button matrix
+https://iamzxlee.wordpress.com/2013/07/24/4x4-matrix-keypad/
+secure base
+wheels
+remote control frame
+cmus gui; remote
+migrate to raspberry pi 2
 
 
 
