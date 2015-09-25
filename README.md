@@ -54,7 +54,7 @@ http://superuser.com/questions/155004/switch-monitors-from-the-command-line
 xrandr --output VGA-0 --auto
 xrandr --output LVDS --off
 -----
-Notes fromn user test
+Notes from user test
 -build metal pipe frame
 custom DIY button matrix
 https://iamzxlee.wordpress.com/2013/07/24/4x4-matrix-keypad/
