@@ -63,6 +63,10 @@ wheels
 remote control frame
 cmus gui; remote
 migrate to raspberry pi 2
+install xscreensaver
+add 'click button' to xscreensaver
+or create script so window doesnt blank after power on
+
 
 
 
