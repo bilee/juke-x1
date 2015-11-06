@@ -66,6 +66,9 @@ migrate to raspberry pi 2
 install xscreensaver
 add 'click button' to xscreensaver
 or create script so window doesnt blank after power on
+---
+setup for pi
+VGA http://tech.enekochan.com/en/2013/05/28/fix-black-screen-in-raspberry-pi-with-hdmi-to-vga-adapter/
 
 
 
