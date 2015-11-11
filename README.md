@@ -70,7 +70,7 @@ or create script so window doesnt blank after power on
 setup for pi
 VGA http://tech.enekochan.com/en/2013/05/28/fix-black-screen-in-raspberry-pi-with-hdmi-to-vga-adapter/
 Turn off screenserver- http://www.raspberry-projects.com/pi/pi-operating-systems/raspbian/screensaver
-
+Execute script on startup -- http://raspberrypi.stackexchange.com/questions/8734/execute-script-on-start-up
 
 
 
