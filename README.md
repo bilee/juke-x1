@@ -75,6 +75,7 @@ Execute script on startup -- http://raspberrypi.stackexchange.com/questions/8734
 auto run programs gui http://www.raspberry-projects.com/pi/pi-operating-systems/raspbian/auto-running-programs-gui
 starting programs at startup http://raspberrypi.stackexchange.com/questions/28199/raspberry-pi-starting-programs-automatically-on-startup
 auto run programs command line -- http://www.raspberry-projects.com/pi/pi-operating-systems/raspbian/auto-running-programs
+getting the Pi to boot directly into a browser (also called “kiosk” mode) -- http://blog.niteoweb.com/raspberry-pi-boot-to-browser/
 
 
 
