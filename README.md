@@ -79,7 +79,7 @@ getting the Pi to boot directly into a browser (also called “kiosk” mode) --
 
 raspberrypi
 -----------
-created 4x4 kepad matrix
+created 4x4 kepad matrix to be used w arduino
 C0 -- 2
 C1 -- 3
 C2 -- 4
