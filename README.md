@@ -77,5 +77,17 @@ starting programs at startup http://raspberrypi.stackexchange.com/questions/2819
 auto run programs command line -- http://www.raspberry-projects.com/pi/pi-operating-systems/raspbian/auto-running-programs
 getting the Pi to boot directly into a browser (also called “kiosk” mode) -- http://blog.niteoweb.com/raspberry-pi-boot-to-browser/
 
+raspberrypi
+-----------
+created 4x4 kepad matrix
+C0 -- 2
+C1 -- 3
+C2 -- 4
+C3 -- 5
+R0 -- 6
+R1 -- 7
+R2 -- 8
+R3 -- 9
+
 
 
