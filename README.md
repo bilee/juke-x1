@@ -91,4 +91,6 @@ R3 -- 9
 
 keypad test on proto board worked -- https://www.instagram.com/p/-rXHQ6I60L/?taken-by=famdet
 
+***Membrane keypad may work best. Trying to improve keypad UI.
+
 
