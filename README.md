@@ -93,6 +93,6 @@ keypad test on proto board worked -- https://www.instagram.com/p/-rXHQ6I60L/?tak
 
 ***Membrane keypad may work best. Trying to improve keypad UI. 
 
-Yes, membrane keypad is slimmer, with larger print surface; omitted list view and shuffle; printed multi-color keypad; using arduino clone (micro); need to enclose;
+Yes, membrane keypad is slimmer, with larger print surface; omitted list view and shuffle; printed multi-color keypad; using arduino clone (micro); need to enclose; https://www.instagram.com/p/BABPDyvo66N/?taken-by=famdet
 
 
