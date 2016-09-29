@@ -95,4 +95,22 @@ keypad test on proto board worked -- https://www.instagram.com/p/-rXHQ6I60L/?tak
 
 Yes, membrane keypad is slimmer, with larger print surface; omitted list view and shuffle; printed multi-color keypad; using arduino clone (micro); need to enclose; https://www.instagram.com/p/BABPDyvo66N/?taken-by=famdet
 
+quick map
+----------
+2 list
+4 que
+7 vol up
+3 vol down
+5 page up
+6 page down
+8 scroll up
+9 scroll dwn
+* song select
+# add que
+x play
+v stop
+c pause
+b skip
+
+
 
