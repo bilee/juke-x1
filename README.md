@@ -115,7 +115,7 @@ quick map
 
 *song select
 
-#add que
+pound add que
 
 x play
 
