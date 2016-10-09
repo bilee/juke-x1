@@ -115,7 +115,7 @@ quick map
 
 9 scroll dwn
 
-*song select
+*song select (win-activate)
 
 pound add que
 
