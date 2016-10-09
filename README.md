@@ -99,6 +99,11 @@ Yes, membrane keypad is slimmer, with larger print surface; omitted list view an
 
 quick map
 ----------
+
+:bind -f common 7 view settings
+
+
+
 2 list
 
 4 que
