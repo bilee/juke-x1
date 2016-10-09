@@ -5,6 +5,8 @@ Juke-X1 is a linux machine running cmus with custom
 key bindings. The keypad is controlled by an Arduino
 microprocessor. The system can be built into a kiosk.
 
+https://linux.die.net/man/1/cmus
+
 The jukebox main functions are:
 - listen to your library in shuffle/non-shuffle mode
 (best if your library files are properly tagged).
