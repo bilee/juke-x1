@@ -132,5 +132,6 @@ c pause
 
 b skip
 
+delete common enter win-activate
 
 
