@@ -45,6 +45,7 @@ Once all is configured, edit grub to start in text mode.
 (http://ubuntuhandbook.org/index.php/2014/01/boot-into-text-console-ubuntu-linux-14-04/);
 To make Ubuntu do nothing when laptop lid is closed -->
 sudo -H nano /etc/systemd/logind.conf | add line, HandleLidSwitch=ignore | restart with sudo restart systemd-logind;
+I created a bash script to start cmus, located in usr/bin; edit .bashrc in home folder to call the script (simply put the name of the script at the bottom of this file). killall cmus to term prior process.
 Issue-
 Screen still goes blank over time in terminal, but music still audible; trying to keep the screen active; 
 Ran this:
