@@ -137,4 +137,6 @@ delete common enter win-activate
 
 m- toggles the "aaa mode." Press until 'all from library' shows in lower right corner.
 
+:clear to clear library
+
 
