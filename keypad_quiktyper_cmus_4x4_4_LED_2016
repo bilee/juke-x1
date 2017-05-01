@@ -1,5 +1,8 @@
 // http://forum.arduino.cc/index.php?topic=112965.0
+#include <Key.h>
 #include <Keypad.h>
+
+#include <Keyboard.h>
 
  const byte ROWS = 4;
  const byte COLS = 4; 
