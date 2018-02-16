@@ -70,6 +70,7 @@ install xscreensaver
 add 'click button' to xscreensaver
 or create script so window doesnt blank after power on
 ---
+also set sudo nano /etc/kbd/config BLANK 0
 setup for pi
 
 VGA http://tech.enekochan.com/en/2013/05/28/fix-black-screen-in-raspberry-pi-with-hdmi-to-vga-adapter/
