@@ -81,6 +81,20 @@ starting programs at startup http://raspberrypi.stackexchange.com/questions/2819
 auto run programs command line -- http://www.raspberry-projects.com/pi/pi-operating-systems/raspbian/auto-running-programs
 getting the Pi to boot directly into a browser (also called “kiosk” mode) -- http://blog.niteoweb.com/raspberry-pi-boot-to-browser/
 
+If you want a script to run when you boot into the LXDE environment, 
+
+Navigate to ~/.config/lxsession/LXDE-pi
+
+Open the autostart file in that folder:
+
+$ sudo nano autostart
+Add @program on a new line. If you want to run something like a python script, put something like @python mypython.py on a new line. 
+Running a script file would be @./superscript, but for some reason the script may run in an infinite loop.
+
+Save and exit: Ctrl+X, Y, Enter
+
+Restart your Raspberry Pi into the LXDE environment.
+
 raspberrypi
 -----------
 created 4x4 kepad matrix to be used w arduino
